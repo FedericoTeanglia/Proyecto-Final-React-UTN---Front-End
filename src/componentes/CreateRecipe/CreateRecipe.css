@@ -1,0 +1,163 @@
+.create-recipe {
+  background-color: var(--neutral-color);
+  font-family: var(--font-family);
+  padding: 20px;
+  border-radius: var(--border-radius);
+  max-width: 600px;
+  margin: auto;
+  box-shadow: var(--shadow);
+  position: relative;
+  color: var(--text-color);
+}
+
+.create-recipe h2 {
+  font-size: 1.8rem;
+  color: var(--text-color);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.create-recipe .edit-icon {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--primary-color);
+  font-size: 1.2rem; /* Tamaño del ícono consistente con otros botones */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.2s ease;
+}
+
+.create-recipe .edit-icon:hover {
+  color: white; /* Naranja vibrante en hover */
+  transform: scale(1.1); /* Ligero aumento de tamaño */
+}
+
+.create-recipe input {
+  padding: 10px;
+  width: calc(100% - 20px); /* Ajuste para bordes */
+  margin-bottom: 15px;
+  border: 1px solid var(--neutral-color);
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  box-shadow: var(--shadow);
+}
+
+.create-recipe input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.create-recipe button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: white;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: var(--shadow);
+}
+
+.create-recipe button:hover {
+  background-color: #2980b9; /* Azul más oscuro */
+  transform: scale(1.05); /* Pequeño efecto de hover */
+}
+
+.create-recipe .ingredient-list {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.create-recipe .ingredient-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: var(--border-radius);
+  color: var(--text-color);
+}
+
+.create-recipe .ingredient-item button {
+  margin: 0 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.create-recipe .ingredient-item button:hover {
+  color: #2980b9; /* Azul más oscuro */
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--danger-color);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 0.8rem;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.close-button:hover {
+  background-color: #c0392b; /* Rojo más oscuro */
+}
+
+/* Responsividad */
+
+/* Tablet */
+@media (max-width: 768px) {
+  .create-recipe {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  .create-recipe h2 {
+    font-size: 1.6rem;
+  }
+
+  .create-recipe button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}
+
+/* Celulares */
+@media (max-width: 576px) {
+  .create-recipe {
+    max-width: 95%;
+    padding: 10px;
+  }
+
+  .create-recipe h2 {
+    font-size: 1.4rem;
+  }
+
+  .create-recipe input {
+    width: 100%;
+  }
+
+  .create-recipe button {
+    font-size: 0.8rem;
+    padding: 8px 10px;
+  }
+}
