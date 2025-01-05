@@ -1,3 +1,4 @@
+/* Contenedor Principal */
 .recipe-history {
   background-color: var(--neutral-color);
   font-family: var(--font-family);
@@ -10,17 +11,20 @@
   color: var(--text-color);
 }
 
+/* Título Principal */
 .recipe-history h1 {
   font-size: 1.8rem;
   margin-bottom: 20px;
   text-align: center;
 }
 
+/* Lista de Recetas */
 .recipe-history ul {
   list-style: none;
   padding: 0;
 }
 
+/* Receta Individual */
 .recipe-history li {
   display: flex;
   flex-direction: column;
@@ -31,44 +35,50 @@
   border-radius: var(--border-radius);
 }
 
+/* Título de la Receta */
 .recipe-history li h3 {
   margin: 0;
   font-size: 1.5rem;
   color: var(--text-color);
 }
 
+/* Subtítulo de Ingredientes */
 .recipe-history li p {
   margin: 5px 0;
   font-size: 1rem;
   font-weight: 600;
 }
 
+/* Lista de Ingredientes */
 .ingredient-list {
   list-style: none;
   margin: 0;
-  padding: 0 0 0 10px; 
+  padding: 0 0 0 10px;
   color: var(--text-color);
 }
 
+/* Ingrediente Individual */
 .ingredient-item {
-  margin: 5px 0; 
+  margin: 5px 0;
   font-size: 1rem;
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 
+/* Encabezado de Receta */
 .recipe-header {
   display: flex;
-  align-items: center; 
-  gap: 10px; 
+  align-items: center;
+  gap: 10px;
 }
 
+/* Ícono de Receta */
 .recipe-icon {
-  color: var(--primary-color); 
+  color: var(--primary-color);
   font-size: 1.5rem;
 }
 
-
+/* Botones de Acción */
 .action-buttons {
   display: flex;
   gap: 10px;
@@ -91,6 +101,7 @@
   transform: scale(1.05);
 }
 
+/* Botones de Edición y Eliminación */
 .recipe-history .action-buttons button {
   background: none;
   border: none;

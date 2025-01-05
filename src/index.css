@@ -1,4 +1,4 @@
-/* Variables de colores globales */
+/* Variables Globales */
 :root {
   --primary-color: #3498db;
   --secondary-color: #2ecc71;
@@ -11,6 +11,7 @@
   --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Body */
 body {
   margin: 0;
   font-family: var(--font-family);
@@ -20,6 +21,7 @@ body {
   line-height: 1.6;
 }
 
+/* Botones */
 button {
   cursor: pointer;
   font-family: inherit;

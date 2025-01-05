@@ -24,7 +24,7 @@
   border: none;
   cursor: pointer;
   color: var(--primary-color);
-  font-size: 1.2rem; /* Tamaño del ícono consistente con otros botones */
+  font-size: 1.2rem; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,13 +32,13 @@
 }
 
 .create-recipe .edit-icon:hover {
-  color: white; /* Naranja vibrante en hover */
-  transform: scale(1.1); /* Ligero aumento de tamaño */
+  color: white; 
+  transform: scale(1.1); 
 }
 
 .create-recipe input {
   padding: 10px;
-  width: calc(100% - 20px); /* Ajuste para bordes */
+  width: calc(100% - 20px); 
   margin-bottom: 15px;
   border: 1px solid var(--neutral-color);
   border-radius: var(--border-radius);
@@ -65,8 +65,8 @@
 }
 
 .create-recipe button:hover {
-  background-color: #2980b9; /* Azul más oscuro */
-  transform: scale(1.05); /* Pequeño efecto de hover */
+  background-color: #2980b9; 
+  transform: scale(1.05); 
 }
 
 .create-recipe .ingredient-list {
@@ -97,7 +97,7 @@
 }
 
 .create-recipe .ingredient-item button:hover {
-  color: #2980b9; /* Azul más oscuro */
+  color: #2980b9; 
 }
 
 .close-button {
@@ -119,7 +119,7 @@
 }
 
 .close-button:hover {
-  background-color: #c0392b; /* Rojo más oscuro */
+  background-color: #c0392b; 
 }
 
 /* Responsividad */
