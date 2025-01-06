@@ -57,5 +57,5 @@ _"Cocinando tu Receta"_ es una aplicación interactiva desarrollada como proyect
 
 
 🧑‍🍳 Autor
-Federico Teanglia
+Federico Tenaglia
 🏫 Institución: Universidad Tecnológica Nacional (UTN).
